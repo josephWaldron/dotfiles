@@ -9,7 +9,7 @@ fc-cache -f -v
 rm -rf FiraCode
 rm FiraCode.zip
 mkdir -p ~/.vim/colors
-cp catppuccin_mocha.vim ~/.vim/colors
-cp vimrc ~/.vimrc
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cp tmux.conf ~/.tmux.conf
