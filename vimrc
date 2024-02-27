@@ -1,3 +1,4 @@
+call plug#begin()
 " set relative lines
 set number
 set nowrap
@@ -10,9 +11,11 @@ end
 
 " Enable mouse
 set mouse=a
-
 set shiftwidth=4
 set softtabstop=4
 set expandtab
 
+Plug 'kamykn/spelunker.vim'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+call plug#end()
 colorscheme catppuccin_mocha
