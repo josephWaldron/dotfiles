@@ -1,4 +1,4 @@
-sudo apt update && sudo apt install git vim tmux curl -y
+sudo apt update && sudo apt install git vim tmux curl xsel -y
 curl -L https://raw.githubusercontent.com/catppuccin/gnome-terminal/v0.2.0/install.py | python3 -
 mkdir -p FiraCode
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
